@@ -1,0 +1,16 @@
+p{
+	color: red;
+	/* agregando tipografia */
+
+	/* el agragar la coma, le decimos que intente con el primero, sino agarra, cargar etc, pasa a intentar el segundo, sino el tercero etc */
+	font-family: 'Monserrat';
+
+	font-size: 13px; /*permite modificar el tamaño del texto */
+	font-weight: bold; /*Ancho de cada letra, define el grosor de cada letra*/
+	font-style: italic; /*permite */
+	text-align:center; /*Alinea texto dentro de su contenedor*/
+	text-decoration: underline; /*Modifica el estilo con las rayas, para subrayar, marcar etc */
+	line-height: 2; /*el tamaño de espacio entre linea|interlineado*/ 
+	letter-spacing: 1px; /*separa el espacio de las letras*/
+	text-transform: uppercase; /* Modifica el texto, en mayuscula, la puede poner en minuscula, la primera letra con mayuscula entre otras cosas*/
+}

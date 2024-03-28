@@ -1,0 +1,9 @@
+el font-weight nos permite poner el grosor de cada letra
+cuando usamos bold, es lo mismo a poner 700.
+
+cada tipo de letra viene de 100 a 900, nosotros elegimos cual
+
+con "bolder" elegimos una porcion mas grande de la normal
+
+
+con los fonts, nosotros podemos configurar nuestra tipografia, podemos descargarla y ajustarla a nuestro modo de trabajo, se usa desde un style, donde ponemos el nombre de nuestro font, en el font se hace la configuracion
