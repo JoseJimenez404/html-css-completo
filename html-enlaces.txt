@@ -1,0 +1,4 @@
+cuando usamos los enlaces, podemos agregarle una funcionalidad que es 
+target = "_blank": esta permite abrir el enlace en otra pagina
+
+en cualquier elemento que le ponga como atributo title = "muestra": este nos muestra una informacion al pasar por encima de cada tag,

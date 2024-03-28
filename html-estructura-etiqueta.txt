@@ -1,0 +1,11 @@
+con el simbolo $* cantidad
+creamos varios h1 al h6 de manera de atajo:
+
+ejemplo: h$*6
+esto devolvera desde el h1 hasta el h6
+
+------------------------------------------------------------
+Por pagina web se debe de usar 1 por pagina,  no mas de una.|
+------------------------------------------------------------
+
+

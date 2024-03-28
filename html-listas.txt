@@ -1,0 +1,7 @@
+Existen listas ordenadas y desordenadas
+
+<ol> hace referencia a una lista ordenada
+
+esta las ordena del 1 hasta el finito que quieras
+
+<ul> hace referencia a una lista desordenada, es decir no sigue un orden

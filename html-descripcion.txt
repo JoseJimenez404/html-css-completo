@@ -1,0 +1,46 @@
+HTMLL -CSS
+
+-WWW:  Significa word wide web
+
+URL: es el enlace para acceder a una informacion
+
+funciona de la siguiente manera:
+
+	Solicitud ------>  Servidor
+
+	Respuesta <------  Servidor
+
+Desde la terminal se puede hacer un curl, para visualizar la pagina como tal:
+
+	c: curl https://www.mexico.como
+
+El codigo que escribimos es interpretado por el navegador.
+
+* Html es un lenguaje de marcado de hipertexto
+* marckdown es un lenguaje de marcado ligero
+
+- Html es interpretado por otro programa, en este caso los navegadores, el cual lee linea por linea
+- su estructura es de bloques
+- Son conformados por tags o etiquetas
+
+cuando creamos un elemento tiene propiedades, las cuales son:
+
+-color,tamaño,fondo etc.
+
+por defecto, html ya trae por defecto las propiedades, pero esto se puede modificar con CSS
+
+css establece un estandar de las propiedades de cada elemento, ajustandose a los requerimientos que quieras, permite modificar cada elemento a tu gusto.
+
+CSS: Hoja de estilo en cascada
+
+funciona mediante reglas de estilo
+selector y bloque de declaraciones
+-selector: hace referencia a la o las tags
+-bloque de declaraciones: los valores / propiedades que se le asignan a cada selector.
+
+------------------------------------------
+Un sitio web es un conjunto de paginas web|
+------------------------------------------
+
+
+Cada etiqueta - tags, tiene funcionalidades y caracteristicas

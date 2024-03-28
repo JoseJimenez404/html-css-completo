@@ -1,0 +1,7 @@
+Existen rutas absolutas y relativas
+
+las absolutas las que no cambian, y las relativas las cuales su posicion cambia.
+
+retroceder una carpeta : ../
+retroceder 2 carpeyas : ../../
+y asi suceivamente
