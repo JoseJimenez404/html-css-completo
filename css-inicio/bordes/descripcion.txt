@@ -1,7 +1,7 @@
 - podemos poner bordes de manera que los modificamos con 
-border-width: tamaño del border
+border-width: tamaño del borde
 border-style: lineas, doble linea, es decir el aspecto del border
-border-color: color del border
+border-color: color del borde
 border-radius: curvita en cada borde de una tag
 
 - podemos bordear una sola parte del tag, con :

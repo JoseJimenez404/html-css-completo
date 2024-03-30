@@ -1,4 +1,4 @@
-para agregar el padding o mragin, se usa en el sentido del reloj, es decir:
+para agregar el padding o margin, se usa en el sentido del reloj, es decir:
 
 paddin: 10px      0     5px    20px;
        arriba|derecha|abajo|izquierda

@@ -8,7 +8,7 @@
 }
 .formulario_submit{
 	letter-spacing: 2px;
-	text-transform: uppercase;
+	text-transform: uppercase; /*especifica el cambio entre mayusculas y minusculas*/
 	background: red;
 	color: white;
 	width: 50%;

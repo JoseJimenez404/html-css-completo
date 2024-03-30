@@ -1,8 +1,8 @@
-usamos el span, para envlver algo en especifico, ejemplo:
+usamos el span, para envolver algo en especifico, ejemplo:
 
 este es un <span>mensaje</span>
 
-con esto en css, si ponesmos el span en rojo, la frase la pondra en negra y la palabra mensaje, la pondra en rojo.
+con esto en css, si ponemos el span en rojo, la frase la pondra en negra y la palabra mensaje, la pondra en rojo.
 
 existe el selector ID, por clase o por elemento:
 -cuando se usa la clase, si se puede reutilizar con varios tags,pero con

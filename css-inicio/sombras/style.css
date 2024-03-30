@@ -19,27 +19,27 @@ body{
 
 }
 h2{
-	font-size: 18px;
+	font-size: 18px; /*dimension de la letra*/
 	margin-top: 10px;
 	color:#999;
-	letter-spacing: 5px;
-	font-weight: 100;
-	font-family: sans-serif;
+	letter-spacing: 5px; /*espacio entre letras*/
+	font-weight: 100; /*especifica lo grueso de la letra*/
+	font-family: sans-serif; /*tipo de letra, recordar, que se le puede poner varios, pero siempre buscara poner el primero*/
 }
 p{
 	margin-top: 5px;
-	list-style: none;
-	text-align: justify;
-	line-height: 1.4;
+	list-style: none; /*define el estilo de la lista, puede ser usada para poner circulos rellenos, no rellenos etc*/
+	text-align: justify; /*alinea el texto al centro, izquierda, derecha, arriba , abajo*/
+	line-height: 1.4; /*define el espacio entre lineas, algo asi como un interlineado*/
 	font-size: 14px;
-	text-shadow: 0 0 5px #f88;
+	text-shadow: 0 0 5px #f88; /*agrega sombra al texto*/
 }
 img{
 	width: 100px;
 	height: 100px;
 	/* width: 100px; */
-	border-radius: 50%;
-	box-shadow: 0 0 10px 1px #000;
+	border-radius: 50%; /*borde alrededor de la imagen*/
+	box-shadow: 0 0 10px 1px #000; /*agregamos fondo a una imagen normal*/
 
 	/* cuando usamos imagenes que no tienen un fondo, es decir, son transparentes, se usa la propiedad filter, quedando asi: */
 
