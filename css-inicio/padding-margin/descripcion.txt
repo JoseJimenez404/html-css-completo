@@ -1,0 +1,6 @@
+para agregar el padding o mragin, se usa en el sentido del reloj, es decir:
+
+paddin: 10px      0     5px    20px;
+       arriba|derecha|abajo|izquierda
+
+si solo agregamos 2 datos, los toma para vertical y horizontal

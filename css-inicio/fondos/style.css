@@ -1,0 +1,16 @@
+body{
+	background-color: #6fa;
+	margin: 0;
+}
+.box{
+	width: 100%;
+	height: 100px;
+	margin: 20px;
+	margin: 0;
+
+	background-image: url("https://imgs.search.brave.com/QBsSpN6oA61dJWQjQzWZ1n8erZDwowzMFmXC7vdolN8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzM0L2U0/L2NlLzM0ZTRjZTg3/MWRlOTJlZjNjOWFh/NmI1NzFlN2UzNzVj/LmpwZw") top / cover fixed #ff0099;
+	/* background-color: #FF0099;
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed; */
+}

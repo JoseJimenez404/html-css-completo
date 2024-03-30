@@ -1,0 +1,47 @@
+body{
+	margin: 0;
+}
+.box{
+	width: 300px;
+	height: 400px;
+	margin: auto;
+	margin-top: 15px;
+	background: #e2e2e2;
+
+	/* 
+	- uso correcto de las sombras
+	box-shadow: horizontal, vertical, desenfoque, extension de la sombra, color; */
+
+	box-shadow: 0 0 40px 0 #0007;
+	padding: 20px;
+	box-sizing: border-box;/*Con esto nos aseguramos que no aumente su tamaño, sino que conserve su tamaño de 300px en el width y 400 en el height */
+	text-align: center;
+
+}
+h2{
+	font-size: 18px;
+	margin-top: 10px;
+	color:#999;
+	letter-spacing: 5px;
+	font-weight: 100;
+	font-family: sans-serif;
+}
+p{
+	margin-top: 5px;
+	list-style: none;
+	text-align: justify;
+	line-height: 1.4;
+	font-size: 14px;
+	text-shadow: 0 0 5px #f88;
+}
+img{
+	width: 100px;
+	height: 100px;
+	/* width: 100px; */
+	border-radius: 50%;
+	box-shadow: 0 0 10px 1px #000;
+
+	/* cuando usamos imagenes que no tienen un fondo, es decir, son transparentes, se usa la propiedad filter, quedando asi: */
+
+	/* filter: drop-shadow(0px 0px 5px #f92); */
+}

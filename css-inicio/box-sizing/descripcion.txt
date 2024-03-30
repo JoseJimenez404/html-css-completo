@@ -1,0 +1,7 @@
+con el box sizing, ajusta el contenido, junto el padding y el border,sino, seria usar box-sizing: content-box
+
+con esto simplificamos mucho el codigo, y no nos preocuparemos de estar midiendo la cantidad: ejemplo:
+
+a un div, le damos el tamaño de 100 px y 100 px, de alto y ancho,
+si nosotros le agregamos border y padding, este tamaño va creciendo, podria pasar los 100 px de ancho y alto.
+si nosotros usamos la propiedad border-content, este ajusta el padding, margin y contenido a los 100px.

@@ -1,0 +1,34 @@
+body{
+	background: black;
+}
+div{
+	background: red;
+	width: 150px;
+	margin: auto;
+	text-align: center;
+}
+
+div{
+	/* border-width: 5px;
+	border-color: black;
+	border-style: solid; */
+
+	border: 3px solid black; /* Forma simplificada*/
+		 /* Anchura | estilo | color*/
+
+	/*Cuando usamos el border, podemos simplificar los 3 puntos de arriba, por solo una linea de codigo, tomando en cuenta que siempre llevara ese orden*/
+
+
+	border-radius: 10px 5px 3px 5px;
+	/* la usamos de la misma manera del sentido del reloj */
+}
+
+input{
+	margin: 5px;
+	padding: 6px 9px;
+	border: none;
+	border-bottom: 1px solid greenyellow;
+	background: transparent;
+	color: greenyellow;
+	border-radius: 3px;
+}

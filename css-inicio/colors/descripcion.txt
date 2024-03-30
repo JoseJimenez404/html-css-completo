@@ -1,0 +1,12 @@
+RGB: Red,Green,Blue, significa los colores primarios
+-se agregan valores del 0 al 255
+
+RGBA:La A , es alfa, agrega opacidad
+
+HEXADECIMAL:
+Tenemos lo mismo, red, green, Blue
+
+1,2,3,4,5,6,7
+a,b,c,d,e,f,
+
+

@@ -1,0 +1,25 @@
+- podemos poner bordes de manera que los modificamos con 
+border-width: tamaño del border
+border-style: lineas, doble linea, es decir el aspecto del border
+border-color: color del border
+border-radius: curvita en cada borde de una tag
+
+- podemos bordear una sola parte del tag, con :
+
+border-top
+border-left
+border-button
+
+- tambien se puede dar un estilo unico a cada lado del borde
+border-left-width: 250px;
+
+border |lado del tag| estilo a agregar
+
+- tomar en cuenta que podemos agregar una sola linea para cada lado:
+
+border-button: 5px solid blue;
+
+
+- tambien se puede modificar un solo lado del radio de una etiqueta:
+
+border-top-left-radius: 5px;
