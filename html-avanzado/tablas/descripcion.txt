@@ -1,0 +1,5 @@
+se usa para mostrar datos tabulares, celdas,  estructuradas por filas y columnas:
+
+unicamente para organizar datos, no para usarios , nombre, email, etc
+
+con thead, tbody y tfooter, estructuramos mejor la pagina web,especificando cada elemento

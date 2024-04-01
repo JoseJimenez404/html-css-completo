@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<table>
+
+		<!-- encabezado -->
+		<thead>
+				<!-- encabezados de una columna -->
+			<tr>
+				<th>Producto</th>
+				<th>Costo</th>
+				<th>Unidades</th>
+			</tr>
+		</thead>
+		<!-- el cuerpo que contiene todos los datos -->
+		<tbody>
+					<!-- arma una fila -->
+			<tr>
+				<!-- define celdas para esas filas -->
+				<td>sandia</td>
+				<td>$10</td>
+				<td>2 kg</td>
+			</tr>
+			<!-- se crea la segunda fila -->
+			<tr>
+				<!-- define celdas para la segunda fila -->
+				<td>manzana </td>
+				<td>$20 </td>
+				<td>1 kg</td>
+			</tr>
+			<!-- se crea la tercera fila -->
+			<tr>
+				<!-- define celdas para la tercera fila -->
+				<td>pera</td>
+				<td>$23</td>
+				<td>5 kg</td>
+			</tr>
+		</tbody>
+		
+		<tfoot>
+			<tr >
+				<!-- definimos otro encabezado -->
+				<th class="dato_total">TOTAL</th>
+	
+				<!-- con el atributo colspain, definimos cuantos espacios ocupa, esto para que se vea mejor -->
+				<td class="header_total" colspan="2">$23</td>
+			
+			</tr>
+		</tfoot>
+	
+	
+	</table>
+</body>
+</html>

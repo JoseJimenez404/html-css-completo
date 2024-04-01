@@ -1,0 +1,36 @@
+los enlaces nos sirven para redirigir a otras paginas y mostrar mas informacion
+
+<a>href ="ubicacion" target = "blank"</a>
+
+
+podemos decidir a que elemento podemos ir en especifico, por ejemplo si estamos en una pagina, y queremos hacer referencia a un elemento que contiene algo en especifico, poniendole un id, y asiendo referencia en el , podemos ver que cuando se le da click, va a la parte en donde se encuentra ese tags
+
+para descargar un archivo, solo agregamos la propiedad dowload, asi como la ubicacion del archivo
+ejemplo:
+
+<a href="style.css" download="">descargar estilos de mi pagina</a>
+
+para mejor seguridad y rendimiento y evitar ataque de fishing
+usamos la propiedad = "noopener", esto evita que otra pagina acceda a window opener. es decir, no podra redirigir a otra pagina.
+
+una mejor es noreferrer, esta no permite que no acceda al elemento window opener, ni tampoco a los encabezados, es decir, otras paginas no sabran de donde vienen. ejemplo:
+
+si yo uso la pagina de mysql, por una referencia que utilizo en mi pagina, y uso la propiedad noreferrer, la otra pagina no sabe de donde vengo, esto hace de la pagina, mejor.
+
+ejemplo de como se usa:
+
+
+<a href="style.css" download rel="noreferrer" target="_blank">descargar estilos de mi pagina</a>
+
+
+la mejor manera de usar , mas cuando se trabaja con usuarios, son los 3 juntos :
+
+noreferrer, para evitar que sepan de donde vienen
+noopen, para que no puedan acceder a window opener
+nofollow, para que google, no posicione las paginas que visitan nuestros usuarios
+	<a href="style.css" download rel="noreferrer nofollow noopener" target="_blank">descargar estilos de mi pagina</a>
+
+
+con esta propiedad, le damos la posibilidad al usuario de mandar un correo directamente a alguien:
+
+<a href="mailto:josejimenez@gmail.com"

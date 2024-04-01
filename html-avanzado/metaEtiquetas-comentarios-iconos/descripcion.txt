@@ -1,0 +1,63 @@
+En html para usar favicons es recomendable usar medidas de una imagen de :
+		32x32 pixeles o 64x64 pixeles. procurar que no pese mucho.
+		lleva estas 3 caracteristicas:
+		tipo icon   | ubicacion de la img | tipo de la imagen
+		<link rel="icon" href="" type="image/png">
+
+-metaetiquetas:
+
+agregamos el tipo de lenguaje:
+<html lang="en">
+
+permite todos los caracteres con acento, interpreta todos los posibles:
+	<meta charset="UTF-8">
+
+ajusta nuestra pagina a los dispositivos, con initialscale, agrega el zoom por defecto para cada dispositivo
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+-meta name= "description" content="describimos lo que es la pagina web"
+-meta name="keywords" content="palabras claves de nuestra pagina, para busqueda"
+-meta name="author" content="nombre del autor de la pagina"
+
+esta propiedad de meta es muy interesante, no guardara en cache la informacion de la pagina, sino que estara en constante cambio, sirve para paginas que se trabaja con dinero, cambio de monedas, mostrar valores etc, ya que si hay cambios en poco tiempo, sirve que no se guarde en cache
+-meta name="robots" content = "noarchive"
+
+
+* A continuacion se muestran los metadatas que sirven para mostrar nuestra pagina desde redes sociales, nos permiten mostrar de manera simplificada lo que se trata nuestra pagina:
+
+	<meta name="OG:TITLE" content="">
+	<meta name="OG:IMAGE" content="">
+	<meta name="OG:DESCRIPTION" content="">
+	<meta name="OG:URL" content="">
+
+	meta tags toolkit
+	en esta pagina nos muestra como se ve en dustintas paginas como google, slack, instagram etc, de como se muestra nuestra pagina .
+	tambien en esta pagina hace los meta, aqui podemos hacer todo y nos da el codigo
+
+
+cuando usamos label, con la propiedad de for = ""
+asignamos el nombre que hara referencia con el input, esto para que esten sincronizados, ejemplo:
+cada input con su label, estan sincronizados con el mismo nombre.
+
+<div class="form-input">
+			<label for="nombre">Nombre completo</label>
+			<input id="nombre" type="text" placeholder="Nombre completo">
+		</div>
+		<div class="form-input">
+			<label for="correo">Correo electronico</label>
+			<input id="correo" type="email" placeholder="Correo">
+		</div>
+		<div class="form-input">
+			<label  for="mensaje">Mensaje:</label>
+			<textarea id="mensaje"></textarea>
+		</div>
+
+
+otra manera de usar los labels, es poner por dentro de si, el input, esto anula la necesidad de colocarle el for y el id, pero si o si, tiene que estar dentro del label:
+
+<label>acepto los terminos y condiciones
+				<input type="checkbox">
+</label>
+
+es mas recomendable usar el for y el id

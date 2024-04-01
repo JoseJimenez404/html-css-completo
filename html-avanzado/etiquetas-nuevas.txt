@@ -1,0 +1,12 @@
+<del>
+<s>
+
+remarcan la letra, es muy util para precios, para decir que estaba a un precio , pero ahora tiene otro.
+
+<code>:
+esta etiqueta sirve para agregar codigo en la pagina
+suele ponerse texto blanco y fondo negro, eso en estilos
+
+strong: una tag, que hace enfasis a una palabra clave, importancia en la pagina
+
+los atributos que suelen dar estilos, dentro de html, no se usan , se recomienda aplicar desde CSS.

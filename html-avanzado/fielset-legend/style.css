@@ -1,0 +1,46 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+	color: #eee;
+	background-color: black;
+}
+
+form{
+	background: transparent;
+	padding:10px 20px;
+	/* con el max-width, le decimos el tamaño maximo que puede alcanzar la etiqueta, con el min-width, el minimo de tamaño */
+	max-width: 500px;
+	margin: auto;
+	box-shadow: 0 0 55px #fff2;
+	margin-top: 50px;
+	border-radius: 8px;
+}
+.form-input{
+	padding: 10px 20px;
+}
+option{
+	background-color: #222;
+}
+input, textarea , select{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 6px 8px;
+	border: none;
+	/* para solo poner el borde de un solo costado, ponemos primero el border none, para que elimine los bordes por defecto, despues lo colocamos */
+	border: 3px solid #999;
+	box-shadow: 0 0 15px ;
+	background-color: transparent;
+	border-radius: 5px;
+	color: #eee;
+	margin: 6px 0;
+}
+
+
+fieldset{
+	margin: 20px ;
+	border: 1px solid #ddd6;
+	border-radius: 5px;
+}
+legend{
+	padding: 0 6px;
+}

@@ -1,0 +1,11 @@
+con el fieldset, agrupamos por seccion cada parte del formulario, por ejemplo, si queremos separar los datos de contacto con los de direccion u otro, depende de lo que queramos manejar, con el legend, le asignamos un nombre a ese segmento, supongamos que queremos agrupar todo el informe de contacto de una persona, quedaria de la siguiente manera:
+
+
+<fieldset>
+		<legend>Informacion basica</legend>
+		<input type="text" placeholder="Nombre">
+		<input type="email" placeholder="Email">
+		<input type="number" placeholder="Numero de telefono">
+</fieldset>
+
+si queramos seccionar mas, con diferentes informaciones, solamente las creamos y les agregamos los nombres y campos

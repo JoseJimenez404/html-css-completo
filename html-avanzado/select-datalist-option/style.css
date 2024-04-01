@@ -1,0 +1,61 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+	color: #eee;
+	background-color: black;
+}
+h2{
+	text-align: center;
+	margin: 0;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	font-weight: 22px;
+	padding: 15px;
+}
+form{
+	background: transparent;
+	padding: 20px 0;
+	/* con el max-width, le decimos el tamaño maximo que puede alcanzar la etiqueta, con el min-width, el minimo de tamaño */
+	max-width: 500px;
+	margin: auto;
+	box-shadow: 0 0 55px #fff2;
+	margin-top: 50px;
+	border-radius: 8px;
+}
+.form-input{
+	padding: 10px 20px;
+}
+option{
+	background-color: #222;
+}
+input, textarea , select{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 6px 12px;
+	border: none;
+	/* para solo poner el borde de un solo costado, ponemos primero el border none, para que elimine los bordes por defecto, despues lo colocamos */
+	border: 3px solid #999;
+	box-shadow: 0 0 15px ;
+	background-color: transparent;
+	border-radius: 5px;
+	color: #eee;
+}
+textarea{
+	min-width: 100%;
+	resize: none; /* se desliza de manera vertical hasta llegar al tamaño*/
+	/* podemos usar none, este definira y no dejara que cresca mas */
+	min-height: 100px;
+	/* max-height: 200px; */
+/* 
+	al textatarea siempre se le tiene que volver a especificar el tipo de letra, ya que trae una por defecto */
+	font-family: sans-serif;
+	form-sizing:content; /*propiedad que la adapta adecuadamente*/
+}
+label{
+	font-size: 0.88em;
+	line-height: 2; /*con esto le damos un espaciado para cada label*/
+}
+.checkbox{
+	width: auto;
+	height: 10px;
+}

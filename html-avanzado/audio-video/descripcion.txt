@@ -1,0 +1,13 @@
+usamos cada video con la etiqueta video, usamos lo mismo con audio, es decir, dentro de la etiqueta video podemos agregar el audio sin problema.
+
+con controls, permite reproducir el video, se debe poner de la siguiente manera
+
+controls = pone los botones
+
+autoplay: inicia el video
+
+muted: lo inicia al menos el primero
+
+loop: muestra el video en un blucle continuo
+
+<video controls autoplay  muted src = "video.mp4"> </video>

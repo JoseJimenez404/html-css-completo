@@ -1,0 +1,41 @@
+significa utilizar etiquetas para darle un significado a algo en especificos, sengloban tags, para darle una mejor estructura
+
+1. especificamos que este sera el encabezado de la pagina
+	<header>
+
+	etiqueta para navegar
+	<nav></nav>
+
+
+
+	asi es como quedaria estructurada.
+	<header>
+		<nav>
+			<ul>
+				<li><a href="">aa</a></li>
+				<li><a href="">aa</a></li>
+				<li><a href="">aa</a></li>
+				<li><a href="">aa</a></li>
+				<li><a href="">aa</a></li>
+			</ul>
+		</nav>
+	</header>
+
+
+2.main, contenido principal de la pagina, englobar todo el contenido principal de la web, apartado mas importante de la web
+
+<main>
+
+</main>
+
+3.section, contiene partes importantes de la pagina
+
+<section class="contenedor-">
+
+</section>
+
+4.aside, sección secundaria, pero que de alguna forma tiene que ver con el contenido principal
+
+<aside></aside>
+
+5.footer, otra parte importante de la pagina, pero que esta hasta abajo

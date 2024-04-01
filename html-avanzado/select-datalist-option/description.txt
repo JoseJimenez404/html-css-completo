@@ -1,0 +1,13 @@
+cuando usamos el select, en el value se agrega el nombre con el que lo recibira el servidor, por ejemplo , con el nombre que nosotros queremos guardarlo en la base de datos, ahora bien, dentro de cada option, podemos escribir como aparecerea al usuario, con tildes etc, pero tomar en cuenta que lo que va en value, es lo que realmente se enviara.
+
+
+usar el select list option es muy util para cuando queremos dar ya respuestas posibles, y a un lado de estas respuestas, una pequeña descripcion de lo que hace cada cosa, o a que nos referimos:
+
+<label >Referente:
+				<input list="referente" name="referente">
+				<datalist name="type-of-user" id="referente">
+					<option value="mike">creador de contenido </option>
+					<option value="jose">youtuber</option>
+					<option value="paco">conocido </option>
+				</datalist>
+</label>

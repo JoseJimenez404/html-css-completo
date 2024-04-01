@@ -1,0 +1,7 @@
+permite que se cargue conforme el usuario lo navega, los componentes, imagenes etc
+
+con las imagenes, le agregamos 
+esto hace que se cargue despues.
+se usa solo cuando sea necesario, no se recomienda a menudo
+
+loady = "lazy"
