@@ -1,0 +1,46 @@
+/* representa una parte especifica de un elemento */
+
+/* se representan con doble dos puntos, es decir :: */
+
+/* accedemos a la primera letra */
+h1::first-letter{
+	color: red;
+}
+
+
+/* primer linea de un elemento */
+
+p::first-line{
+	color: red;
+	border: solid;
+}
+
+
+/* cuando seleccionamos un div */
+div::selection{
+
+}
+
+
+/* modificando el placeholder */
+input::placeholder{
+	color: green;
+	background-color: #000;
+
+}
+
+/* como modificamos un li que trae puntos */
+li::marker{
+	color: red;
+}
+
+/* podemos poner after o before, para poner algo de un elemento */
+
+li::after{
+	content: "despues";
+	color: green;
+}
+li::before{
+	content: "despues";
+	color: green;
+}

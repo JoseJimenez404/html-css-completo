@@ -1,0 +1,39 @@
+<!-- Aplicacion de la metodologia BEM:
+
+1).definir y nombrar al bloque, en este ejemplo trabajaremos con una lista desordenada (ul).denominar al bloque correctamente, este sera una lista, por lo tanto la llamaremos asi "lista"
+
+2). denominar a los elementos que la contienen correctamente, poner : nombre del bloque que lo contiene, y descripcion de lo que es este elemento (su nombre), los li son items. la separacion entre el nombre del bloque y el elemento se da por 2 guiones bajos: __. quedaria asi: "lista__item" 
+
+3).si queremos agregar una clase modificadora, en este caso en el elemento li, que es un  item, creamos el nombre de la clase despues de la principal, que va con el nombre del elemento y lo que hara, ejemplo:
+"item--danino", en esta ocacion, para los modificadores, ya no se usan guines bajos, sino guones medios --.
+-->
+
+<!-- ahora bien, si queremos modificar un bloque, es decir, si un bloque es la base, pero quiero crear otro, es decir, en este caso crear otra lista, podemos agregarle otra clase, pero el nombre de la clase es similar al del elemento, seria nombreBloque--descripcion, quedando de la sig, manera:  -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<h1>INGREDIENTES</h1>
+	<ul class="lista">
+		<li class="lista__item item--danino">Sal</li>
+		<li class="lista__item item--importante">Papa</li>
+		<li class="lista__item">Harina</li>
+		<li class="lista__item">Agua</li>
+		<li class="lista__item">Azucar</li>
+	</ul>
+	<ul class="lista lista-listadescriptiva">
+		<li class="lista__item item--danino">Sal</li>
+		<li class="lista__item item--importante">Papa</li>
+		<li class="lista__item">Harina</li>
+		<li class="lista__item">Agua</li>
+		<li class="lista__item">Azucar</li>
+	</ul>
+</body>
+</html> 

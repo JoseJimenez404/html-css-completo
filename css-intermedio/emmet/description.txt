@@ -1,0 +1,1 @@
+simplifican la manera de crear etiquetas, hacer las cosas mas rapidas, especificamente para html y css, son como abreviaciones de codigo

@@ -1,0 +1,24 @@
+/* especialmente para textos,(parrafos) no para todos los elementos */
+
+.box{
+
+	/* se adapta a como lo tenemos en el html */
+	white-space: pre;
+	/* se ajusta para que no se desborde, pero nos da la posibilidad de modificarlo en el html, es decir , respeto nuestro salto de linea */
+	white-space: pre-wrap;
+
+	/* para mostrar 3 puntos suspensivos, indicando que hay mas texto */
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+
+	/* balancea el parrafo, de tal manera, que no queden palabras tan solas, al final, sino que se vea mas estetico */
+	text-wrap: pretty;
+}
+
+h1{
+/* 
+	hace mas estetico el texto, por ejemplo, no deja palabras sueltas, sino hace que se ajuste de una buena manera */
+	text-wrap: balance;
+
+}

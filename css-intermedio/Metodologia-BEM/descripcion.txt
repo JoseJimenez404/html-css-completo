@@ -1,0 +1,12 @@
+bloques-elementos-modificadores
+
+	- bloque: componente de la pagina que podemos reutilizar en cualquier parte de la pagina
+
+	-elemento: parte de un bloque, es decir , un elemento que forma parte del bloque
+
+	-modificadores: forma de modificar un bloque o elemento.
+
+metodologia: una forma especifica de trabajar
+
+permite reutilizar codigo, 
+

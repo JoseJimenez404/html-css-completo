@@ -1,0 +1,41 @@
+/* AGREGANDO ESTILOS SIN LA METODOLOGIA BEM */
+.lista{
+	border: 2px solid #000;
+}
+.ingredientes{
+	/* con esta propiedad, modificados el circulo de una lista, y se vuelve cuadrados, existen otras masc */
+	list-style: square;
+	margin: 10px 0;
+	list-style: square;
+}
+
+.ingrediente-importante{
+	color: rebeccapurple;
+	margin: 20px 0;
+	list-style: square;
+}
+.ingrediente-danino{
+	color: red;
+	margin: 20px 0;
+	list-style: square;
+}
+
+/* es demasiado codigo, por lo cual no es escalable, para ello es que aplicamos la metodologia BEM */
+
+
+al usar la metodologia, nombramos correctamente todo
+.lista__item{ 
+	color: green;
+	margin: 10px 0;
+	list-style: square;
+}
+.lista--descriptiva{
+	background: transparent;
+}
+
+.item--danino{
+	color: red;
+}
+.item--importante{
+	color: blue;
+}

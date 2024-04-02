@@ -1,0 +1,12 @@
+/* las transiciones, sirven para hacer un cambio menos brusco, esto se usa con el :hover, ojo: no va dentro del hover, va en el elemento que se quiere cambiar, en este caso en .box:hover */
+
+
+.box{
+	transition-property:color ;
+	color: red;
+	transition-duration: 1s;
+}
+
+.box:hover{
+	background-color: blue;
+}

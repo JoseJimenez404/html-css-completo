@@ -1,0 +1,7 @@
+cuando se sale el contenido de una caja.
+
+con overflow: visible: esta viene por defecto, que hace que lo que sobresalga del contenedor se vea
+con overflow: hidde, con esto, corta y lo adapta al contenedor.
+
+con overflow: auto: ajusta por ejemplo, todo el parrafo dentro de un contenedor, y lo ajusta, tenga poquito o no.si tiene poquito, desaparece el scroll, si tiene  mas, o se sobrepasa, aparece el scroll
+

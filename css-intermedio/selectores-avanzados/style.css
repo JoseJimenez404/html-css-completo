@@ -1,0 +1,65 @@
+
+/* --- SELECTOR DE ATRIBUTO */
+/* seleccionamos las imagenes que terminen con png o lo que pongas */
+img[src$="png"]{
+
+}
+/* seleccionamos las imagenes que empiecen con lo que definas*/
+img[src^="png"]{
+
+}
+
+/* --- SELECTOR DESCENDIENTE */
+/* seleccionar de forma descendente. */
+/* buscamos los li que esten dentro de una lista , es decir ul */
+ul li{
+
+}
+/* --- SELECTOR POR HIJO DIRECTO */
+
+/* decimos que sea un hijo directo de li, en esta ocacion definimos estilos para los strongs que sean hijos directos de ul */
+ul > li{
+
+}
+/*  ejemplo
+<ul>
+	<li>
+		<strong>hola<strong>
+	</li>
+</ul> 
+
+en este caso li es un hijo directo y strong es un nieto de ul, e hijo directo de li.
+*/
+
+/* --- SELECTOR HERMANO ADYASCENTE*/
+
+/* seleccionamos a un p, que le sigue a un h1, es decir, a un p que este despues de un h1, asi se puede hacer  */
+
+h1 + p + p{
+
+}
+
+/* --- SELECTOR HERMANO GENERAL*/
+/* le damos estilos a todos los hermanos que vengan despues de h1 */
+h1 ~ p {
+
+}
+
+
+/* --- SELECTOR MULTIPLES ELEMENTOS*/
+
+/* engloba varios elementos que selecciones */
+
+h1, p{
+
+}
+
+
+/* HERENCIA 
+La herencia es como en programacion, hay cosas que un elemento padre se leasigna, como al body, si se le pone un tipo de letra, los demas elementos se le hereda.
+*/
+
+h1{
+	/* con esta propiedad le decimos que adquiera el color de su elemento superior, busca cada elemento hasta agarrar un elemento con esa propiedad y la toma, esto es muy usada en los textarea, inputs,a , especialmente en font-family*/
+	color: inherit;
+}

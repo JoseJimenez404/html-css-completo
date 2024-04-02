@@ -1,0 +1,77 @@
+
+
+/* seleccionamos un estado especifico de un elemento. */
+
+/* cuando pasamos el cursor encima */
+h1:hover{
+
+}
+
+/* cuando le damos clic a un elemento */
+h1:active{
+
+}
+
+/* seleccionando el primer li */
+/* busca el primer elemento li */
+li:first-child{
+
+}
+/* seleccionando el ultimo li */
+/* busca el ultimo elemento li */
+li:last-child{
+
+}
+/* seleccionando cualquier elemento */
+/* busca el primer elemento li */
+li:nth-child(2){
+
+}
+li:nth-child(4){
+
+}
+
+/* se puede modificar 1 elemento si, uno no, 2 en 2, cada 3 elementos, etc, eso dependera de que y como queramos modificar */
+
+
+/* aqui seleccionamos unicamente a los elementos que son li, si hay otro elemento en el , no los toma en cuenta */
+li:nth-of-type(2){
+
+}
+
+
+/* seleccionando un elemento en caso de que tenga contenido  */
+/* supongamos que le hemos puesto un borde anterior al div, pero si este esta vacio, no tiene caso que lo tenga (puede ser cualquier otra caracteristica), con el empty, le decimos, si esta vacio, quitale el borde */
+div:empty{
+	border: none;
+}
+
+
+/* estilo a una tag a, cuando ya visitamos el enlace */
+a:link{
+	color: blue;
+}
+
+/* estilo a una tag a, cuando no hemos visitamos el enlace */
+a:visited{
+	color: blueviolet;
+}
+
+/* seleccionando inputs invalidos */
+input:invalid{
+	
+}
+/* seleccionando inputs validos */
+input:valid{
+
+}
+
+/* estos 2 ultimos , pueden ser usados al momento de ingresar correo en un input */
+
+
+
+/* una manera de agrupacion es :is, where, pero con el :is, tiene mas valor */
+
+section:is(.elemento1, .elemento2){
+	color: aqua;
+}

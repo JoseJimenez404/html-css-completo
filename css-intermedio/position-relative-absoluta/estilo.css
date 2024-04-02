@@ -1,0 +1,30 @@
+/* 10:25 minutos  del video*/
+
+.contenedor{
+	position: relative;
+}
+
+.box{
+	width: 100%;
+	height: 100%;
+	background-color: orange;
+	color: #fff;
+	position: relative;
+	/* con relative, ocupa su espacio normal, pero puede salir de ese espacio, y ocupar espacio extra de otros elementos, sigue posicionada en el mismo lugar, pero la caja la podemos mover, aunque no se vea, mantiene su espacio */
+
+}
+
+
+.box--blue{
+	background-color: blue;
+	/* left y top, predomina sobre bottom y right, cuando se usan, no tiene caso que se use las 4, ya que estas predominan */
+}
+
+/* con la caracteristica de z-index, esta la sobrepone sobre otra, entre mas grande el valor de z-index, es la que predomina. */
+
+
+/* el z-index, solo sirve si esta definido el position relative */
+
+
+/* cuando usamos el position absolute, ya no ocupa lugar, sino que se posiciona entre los otros elementos, el punto de referencia que tiene es html.
+la podemos mover a donde sea,para modificar su punto de referencia de html al contenedor que la contiene, en el contenedor agregamos position: relative. ahora todos los movimientos las hace desde su punto de referencia que le agregamos. */

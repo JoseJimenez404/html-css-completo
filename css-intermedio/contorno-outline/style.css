@@ -1,0 +1,26 @@
+/* es una utilizad visual, no cubre espacio en la pagina, es una guia para el usuario, es como una capa mas arriba del borde */
+
+
+
+.box{
+	outline-width: 3px;
+	outline-color: aqua;
+	outline-style: solid;
+
+	/* lo de arriba se simplifica aqui abajo, igual que el borde */
+	outline: 5px solid #a73333;
+}
+
+
+/* no afecta el flujo, es muy bueno para las transiciones, muy utilizado en lugar del borde, es mas para estetica, por ejemplo, tenemos 2 divs, y cuando se pase el cursor, queremos que se aumente un poco el margen, usamos esta propiedad, y lo hara mas estetico */
+
+div:hover{
+	outline: 5px solid red;
+}
+
+
+/* 
+esto es muy utlizado para estetica, para que no aparesca al momento de usar el input */
+input:focus-visible{
+	outline: none;
+}

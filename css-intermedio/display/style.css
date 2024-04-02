@@ -1,0 +1,64 @@
+/* 
+los tags a, son elementos en linea
+con el display bloq, lo ponemos en lineas distintas
+
+los elementos de bloque aceptan:
+margenes, border, padding
+
+*/
+
+/* los tags p, son elementos en bloque */
+
+/* --el padding y margin solo funcionan con elementos en linea | horizontalmente */
+
+p{
+	display: inline; /*pone al elemento en linea*/
+}
+
+
+/* inline-block */
+/* es lo mas recomendable para trabajar con barras de navegacion */
+
+
+body{
+	margin: 0;
+}
+.nav{
+	background-color: #48e;
+}
+
+.nav__list{
+	margin: 0;
+}
+
+.nav__item{
+	display: inline-block;
+}
+
+.nav__link:hover{
+	background-color: #59e;
+}
+.nav__link{
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+	background-color: #48e;
+}
+.link--button{
+	border: #48e;
+	background-color: #fff;
+	padding:6px 18px;
+	color: #48e;
+	margin-left: 30px;
+
+}
+
+.link--button:hover{
+	background: transparent;
+	color: #fff;
+}
+
+
+/* con display: none , no ocupa espacio en la pagina y desaparece*/
+

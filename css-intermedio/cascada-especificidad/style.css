@@ -1,0 +1,21 @@
+/* el id tiene mas especificidad que una clase, pero si se llaman de la misma manera, toma el valor de la clase y no del id */
+#titulop {
+	color: blue;
+}
+
+/* este tiene mas especificidad, por lo tanto este tiene mas valor, y toma este valor */
+.titulo{
+	color: aqua;
+} 
+
+h1{
+	color: red;
+}
+
+/* lo mas predominante es poner el estilo en el codigo html directo con el style de manera general, pero el estyle directo al elemento es mas predominante. */
+
+h1{
+	color: rgb(45, 86, 121) !important;
+}
+
+/* con la propiedad important en el elemento, predomina sobre todo, es lo mas importante, es el valor que va a tomar */

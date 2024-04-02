@@ -1,0 +1,13 @@
+img{
+
+	/* ajusta las imagenes dentro del contenedor */
+	object-fit: cover;
+	object-fit: contain;
+
+	/* otras maneras de ajuste */
+	object-position: center;
+	object-position: 50px;
+
+	/* toma la medida exacta de la resolucion de la imagen */
+	object-fit: none;
+}
