@@ -1,6 +1,6 @@
 los enlaces nos sirven para redirigir a otras paginas y mostrar mas informacion
 
-<a>href ="ubicacion" target = "blank"</a>
+<a>href ="ubicacion" target = "_blank"</a>
 
 
 podemos decidir a que elemento podemos ir en especifico, por ejemplo si estamos en una pagina, y queremos hacer referencia a un elemento que contiene algo en especifico, poniendole un id, y asiendo referencia en el , podemos ver que cuando se le da click, va a la parte en donde se encuentra ese tags
