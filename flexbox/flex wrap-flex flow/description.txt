@@ -1,0 +1,4 @@
+flew wrap, permite controlar el comportamiento de los flex items, cuando el espacio del contenedor es menor a la cantidad de items.
+cuando el espacio del contenedor es insuficiente para los elementos flex-items
+
+esta accion, se aplica directamente al contenedor

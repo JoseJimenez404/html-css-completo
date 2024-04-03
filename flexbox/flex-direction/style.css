@@ -1,0 +1,25 @@
+
+
+body{
+	margin: 0;
+	font-family: sans-serif;
+}
+/* con el flexbox, flex: ponemos de izquierda a derecha cada item, ajustandose al tamaño al momento de disminuirse, pero no pueden agrandarse mas de lo que esta definido en su contenedor */
+.flexbox{
+	display: flex;
+	flex-direction: row-reverse;/*modifica el orden de derecha a izquierda*/
+
+	/* si le damos column, lo pone de arriba hacia abajo, si ponemos column-reverse, sera de abajo hacia arriba */
+}
+.flexbox__flex-item{
+	/* padding: 60px; si nosotros usamos padding, ya no se ajusta , pierde esa capacidad, por lo cual es recomendable usar width y height */
+	height: 60px;
+	width: 150px;
+	background-color: #911;
+	margin: 10px;
+	color: rgb(253, 246, 234);
+	font-size: 40px;
+}
+.flexbox__flex-item:first-child{
+	background-color: #f77;
+}

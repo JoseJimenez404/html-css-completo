@@ -1,0 +1,12 @@
+/* podemos configurar el orden de visualizacion */
+
+/* por defecto todos los elementos vienen con orden 0;
+podemos modificarlo con  */
+
+.flex{
+
+	/* modificamos unicamente el orden visual y no en el html */
+	order: 1;
+
+	/* podemos aplicarlo a todos los elementos items, especificos etc, y modificar cada elemento en como se visualiza,  */
+}

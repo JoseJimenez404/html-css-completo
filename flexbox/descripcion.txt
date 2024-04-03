@@ -1,0 +1,27 @@
+es un modelo de caja, modulo de css
+
+es principalmente una caja contenedora. la caja o bloque principal, es a quien se le define dispaluy:flex. esta le dice a los tags que contiene que se adapte a ella
+
+caja contenedores : flexbox
+
+los elementos que estan dentro de flexbos: son flex items.
+
+podemos alterar su orden, de abajo hacia arriba, arriba hacia abajo, derecha izquierda e izquierda a derecha
+
+row:
+hace que los elementos vallan de derecha a izquierda
+
+row-reverse:
+direccion contraria, es como decir de derecha a izquierda
+
+column:
+cada tag va de arriba hacia abajo
+
+column-reverse:
+cada elemento va de abajo hacia arriba
+
+
+funciona para padre e hijo directo, es decir, si tengo un div y le aplico el flexbox, y agrego una etiqueta p dentro del div, el tag p, es un hijo directo, o flex item, pero si dentro de la etiqueta p, creo una tag span, este ya no es hijo directo, por lo tanto ya no funciona, es unicamente a hijos directos.
+
+
+con gap: 2px, asignamos espacio entre cada items dentro de una caja contenedora

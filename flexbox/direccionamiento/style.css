@@ -1,0 +1,36 @@
+.flexbox{
+
+	/* eje principal  izquierda a derecha*/ 
+
+	/* justify-content: center; alinea al medio */
+	/* justify-content: start; en direccion del texto */
+	/* justify-content: end; al final del contenido */
+	/* justify-content: space-between;poner al primer elemento al principio del contenedor, y el uktimo al final del contenedor, y los elementos del medio, los ajusta y distribuye a la misma distancia */
+	/* justify-content: space-around; cada elemento , tiene una separacion igual */
+	/* justify-content: space-evenly; ajusta exactamente el mismo espacio entre cada elemento */
+
+	/* eje vertical arriba hacia abajo*/
+
+	/* align-items: start; alinea al principio de todo */
+	/* align-items: baseline;alinea todo a la direccion del texto */
+
+	/* por defecto viene con align-items: stretch;, esto afecta a que ocupe todo */
+
+	/* align-content: center; permite ajustar el contenido  */
+
+
+	/* para centrar elementos, se puede ajustar por ambos, 
+	justify-content: center;
+	align-items: center; */
+
+	/* o mejor aun, solo usar margin: auto, lo centrara */
+
+
+	/*  **** Align self */
+
+	/* funciona solamente cuando usamos la propiedad align-items: 
+	es una forma de acomodar a un align items en especifico.
+	align-self: baseline;
+	align-self: start */
+	
+}

@@ -1,0 +1,41 @@
+/* felx items- hijos directos de un contenedor que usa flex */
+
+/* con grow, que del espacio disponible, puede ocupar algo */
+
+.flex{
+	flex-grow: 1;
+
+	/* a un item, se le puede asignar 2, mientras que a otros 1, esto hara que sea mas grande que el otro, practicamente, ocupan todo el espacio disponible */
+
+	/* esto es muy bueno, por que permite dividir por partes para ocupar cada item, dentro de la caja contenedora */
+}
+
+
+
+.flexi{
+	/* si le damos 0, estos no se encojen despues de su tamaño base */
+	flex-shrink: 0;
+	/* podemos asignarle a un item-flex el tamaño especifico si se encojera o no */
+
+	/* para que se puedan estirar, pero si sobrepasa se va hacia abajo */
+
+
+	/* flex-basis: 50px; le decimos este es el tamaño maximo que te puedes achigar, antes de encojerte */
+}
+/* determina la capacidad para encojerse , hasta que tamaño*/
+
+
+/* lo recomendado es usar un flex-basis: 0 y tambien un min-width: (de algo) */
+
+
+/* con gap: le asignamos la separacion que vamos a tener */
+
+.flex{
+/* para abreviaar esto usamos flex  */
+	flex-basis: auto;
+	flex-shrink: 1;
+	flex-grow: 0;
+
+	flex: 0 1 auto;
+	/* flex-grow|flex-shrink|flex-basis */
+}
