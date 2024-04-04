@@ -1,0 +1,6 @@
+mobile first: forma de pensar, de dispositivos moviles a pantallas mas grandes.
+
+
+aqui se usa el min-width
+
+cuando se crea primero de escritorio a telefono se usa max-width

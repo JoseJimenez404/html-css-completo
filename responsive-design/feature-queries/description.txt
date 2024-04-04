@@ -1,0 +1,1 @@
+media queries de nivel 4, son una herramienta para escribir codigo, en caso de que el navegador soporte una propieda

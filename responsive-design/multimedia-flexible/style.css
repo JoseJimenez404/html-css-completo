@@ -1,0 +1,44 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+}
+
+div, body{
+	box-sizing: border-box;
+}
+
+
+/* esta es la forma correcta de trabajar con imagenes */
+img{
+	/* no es buena practica ponerle solamente el width */
+
+	/* maximo de la pantalla o dispositivo que la accede */
+	max-width: 100%; 
+	height: auto;
+}
+
+/* ahora para trabajar con videos */
+
+/* forma 1 de adaptar un video , ya no se usa mucho pero sirve */
+/* .contenedor{
+	position: relative;
+	width: 100%;
+	padding-top: 56.25%;
+}
+video{
+	position: absolute;
+	top: 0;
+	left: 0;
+	max-width: 100%;
+} */
+
+/* forma 2 de adaptar un video */
+
+.contenedor{
+	max-width: 100%;
+	aspect-ratio: 16/9;
+	margin: auto;
+}
+video{
+	max-width: 100%;
+} 

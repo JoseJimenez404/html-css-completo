@@ -1,0 +1,6 @@
+la componen 3 partes|secciones:
+
+
+principal: menu principal-header, main  (contenido principal) con 2 secciones secundarias, footer.
+
+

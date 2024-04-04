@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<!-- esto funciona igual que srcset y sizes, pero es mas recomendable usar esto, es para darle al navegador la posibilidad de ciertas imagenes, dependiendo de cierta resolucion por cada dispositovo. -->
+
+	<!-- esta etiqueta sirve para verificar el tipo de formato y para verificar tamaños de pantalla -->
+	<picture>
+
+		<!-- se deve de ordenar correctamente de menor a mayor y en el orden que quisieramos que tomara la referencia, es decir, primero verifica si su navegador soporta el formato .webp, sino , pasa a la segunda condicion, sino a la tercera, y asi sucesivamanete-->
+		<source srcset="dalto.webp" type="image/webp">
+		<source media="(max-width: 400px)" srcset="dalto-small.png">
+		<source media="(max-width: 600px)"" srcset="dalto-medium.png">
+		<img src="dalto.png" alt="">
+	</picture>
+</body>
+</html>

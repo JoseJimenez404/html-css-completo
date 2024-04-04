@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+
+
+	<!-- USO DE SRCSET -->
+	<!-- con la primera le decimos, que aplique la iamgen a pantallas que tengan como maximo 400 pixeles, se representa por w los pixeles, ahora bien, si es mayor que 400pixeles pero menor que 700 pixeles, pone la segunda imagen, por ultimo, le decimos que la ponga en pantallas de hasta 1000 pixeles -->
+
+	<!-- con esto nos aseguramos de cargar correctamente, una imagen adecuada para el dispositivo:
+
+	OJO: checar que la imagen este dentro del rango de pixeles. -->
+
+	<!--USO DE SIZES
+		solo funciona con  srcset
+		le da una recomendacion de cuales serian los maximos de altura que puede trabajar.
+
+		le decimos: cuando la pantalla sea menor o igual que 400, cargate imagenes que tengan masomenos 300pixeles, cuando tenga menos de 600 o, cargate las de 500, y cuando no, cargara la de 900 pixeles, por defecto
+	-->
+	<img src="dalto-small" srcset="dalto-small.png 400w, dalto-medium.png 600w, dalto.png 1000w" sizes="(max-width: 400px) 300px,(max-width: 600px) 500px,900px" alt="">
+
+	
+</body>
+</html>

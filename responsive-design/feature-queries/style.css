@@ -1,0 +1,17 @@
+
+
+
+/* practicamente le decimos que haga esto, y si el navegador no la soporta que use lo de abajo */
+/* si lo soporta */
+@supports(color: oklch(30% 0.2 30)){
+	body{
+		color: oklch(80% 0.2 30);
+	}
+}
+
+/* si no lo soporta le damos otros estilos */
+@supports not (color: oklch(30% 0.2 30)){
+	body{
+		color: oklch(80% 0.2 30);
+	}
+}

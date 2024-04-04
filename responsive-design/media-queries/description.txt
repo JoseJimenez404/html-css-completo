@@ -1,0 +1,18 @@
+adapta nuestra pagina web, a distintas resoluciones, por cada resolucion ciertas caracteristicas| estilos.
+
+
+
+@media not|only mediatype and (expressions){
+	CSS-Code;
+}
+
+@media: la regla que inicia la query
+
+not|only: operadores opcionales, not excluye a los dispositivos que cumplen con la consulta y only se usa para evitar que navegadores antiguos que no soportan las queryes, usen las queries.
+
+
+mediatype: tipo de medio que se dirije la consulta, por ejemplo: 
+si queremos imprimir algo, usamos print: @media print
+si queremos medir la pantalla de la compu usamos screen: @media screen
+
+and: para combinar varias expresiones, conecta condiciones

@@ -1,0 +1,3 @@
+permiten entender y darle al navegador de darle opciones, y darle opciones:
+
+picture: define el contexto, para que dentro de ella muestre varias opciones, el navegador elije la mejor

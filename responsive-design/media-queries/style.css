@@ -1,0 +1,29 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+}
+
+div, body{
+	box-sizing: border-box;
+}
+
+.flexbox{
+	display: flex;
+}
+
+.flex-item{
+	background-color: #ccc;
+	padding: 30px;
+	border: 1px solid red;
+	flex-grow: 1;
+
+}
+
+/* con screen, estamos haciendo referencia a la pantalla del dispositivo, que se va a usar o a referir su pantalla */
+
+/* aqui le estamos diciendo que si la pantalla disminuye a 400 pixeles, manda hacia abajo el flex, esto para que se mire mejor , podemos poner la condicion que queramos*/
+@media screen and (max-width:400px){
+	.flexbox{
+		flex-direction: column;
+	}
+}

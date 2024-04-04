@@ -1,0 +1,22 @@
+
+
+.container{
+/* 	
+	definir el tipo, condicionar las propiedades que le vamos a dar por su ancho, con esta propiedad, podemos usar container,sino, no se podra */
+
+	/* inline-size: solo toma las posiciones en linea; */
+	container-type: inline-size;
+	/* podemos asignarle un nombre cualquiera al contenedor */
+	container-name: main;
+}
+
+p{
+	font-size: 8px;
+}
+
+/* condiciones por el contenedor , podemos seleccionar y usar un query, este solo se aplica para el contenedor que elegimos, estos estilos se aplican al contenedor en especifico y unicamente a sus elementos, los que esten fuera, no los aplica, ahora bien, si le quitamos el nombre, aplica para todos*/
+@container main(max-width:500px){
+	p{
+		font-size: 20px;
+	}
+}		

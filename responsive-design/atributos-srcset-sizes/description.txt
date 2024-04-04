@@ -1,0 +1,6 @@
+atributos de html que trabajan en conjunto para ofrecernos una solucion mas avanzada y flexible, adecua mejor cada imagen, por cada pixel, mejora la calidad y carga de la imagen
+
+
+esto sirve para indicar ciertas medidas: ejemplo
+
+supongamos que tenemos una imagen de 950 px x 952px , cuando la abramos en el navegador con una computadora, la vera bien, pero si la abrimos en un telefono los pixeles disminuyen, por lo que seria mejor tener otra imagen con menos resolucion, por ejemplo, una de 555 x 552 pixeles, ya que no tiene caso abrir una imagen grande en un dispositivo pequeño

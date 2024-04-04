@@ -1,0 +1,64 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+}
+
+div, body{
+	box-sizing: border-box;
+}
+
+/* -- USANDO FLEXBOX */
+.flexbox{
+	display: flex;/* hace que sean flexibles*/
+	flex-wrap: wrap;/*cuando ya no entran, empieza a poner hacia abajo cada elemento*/
+	justify-content:center ; /*se adapta al centro*/
+	max-width: 600px; /*le damos un maximo de crecimiento*/
+	margin: auto;
+}
+
+.bloque{
+	display: inline-block;
+	min-width: 200px;
+	/* max-width: 200px; si nosotros quitamos el max-with, ocupara todo el espacio disponible, y no solo una parte */
+	background-color: #a7a;
+	margin: auto;
+	width: 100%;
+	flex-grow: 1;/*les permitimos ocupar el tamaño que resta*/
+	flex-basis: 0;
+	font-size: 12px;/*tamaño de la letra*/
+	padding: 10px;
+	margin: 4px;
+}
+
+
+
+
+
+
+
+
+/*  ---- haciendolo un poco responsivo, pero solo con width y height 
+
+el problema de este, es que cuando achicamos el tamaño, no se hace lo correcto, es por ello que es mejor usar flexbox*/
+/* .bloque{
+	display: inline-block; */
+	/* 
+
+	con min width y mas width: nos aseguramos de definir un tamaño en el cual esta se adaptara, ejemplo, aqui le estamos diciendo que cuando llegue en un maximo de 600 pixeles ya no se agaranda, y cuando sea menor que 500, este ya no se achica. */
+	/* min-width: 150px;
+	max-width: 200px; */
+
+	/* no es correcto poner un height: no es recomendable; */
+	/* height: 300px; */
+
+	/* si es indispensable, es mas recomendable usar el min-height: o max-height:  
+	
+	por ejemplp: le decimos que su minimo de altura es 300px, si es mas de este, no tendra problema en ajustar su contenido. tambien podemos definir el maximo
+	
+	min-height: 300px;
+	*/
+	/* background-color: #7bf;
+	margin: auto;
+} */
+
+
