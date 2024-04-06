@@ -1,0 +1,5 @@
+trabajar con filas y columnas.
+cuando trabajamos con grid, no sucede el colapso de margenes, es decir, cuando no trabajamos con ella y a un div le damos un margin de 10px, esta se colapsa y entre la distancia de ambos elementos, se le da los 10px, es decir, cada elemento toma 5px de distancia, cuando trabajamos con grid no sucede esto, a cada elemento le da 10px de distancia, acumulando asi 20px.
+
+
+el cambio se aplica unicamente cuando aplicamos el margin, cuando no, no se nota en si

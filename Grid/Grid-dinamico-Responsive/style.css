@@ -1,0 +1,38 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+}
+
+div,body{
+	box-sizing: border-box;
+}
+/* separacion entre elementos - grid GAP */
+.grid{
+	display: grid;
+
+	/* auto-fit: ajusta
+	   auto-fill: rellena */
+	/* la diferencia radica con pocos elementos, con auto-fill, crea columnas si hay espacio disponible, crea columnas para ir rellenando, con auto-fit, adapta. */
+	
+
+	/* con esto nos aseguramos que hasta que haya un espacio en el cual permita agregar una columna mas, este lo agrega, pero cuando no, no lo agrega */
+
+
+	/* con auto-fit, no deja espacios, trata de rellenarlos, con el fit-fill, si crea los bloques, pero no los muestra, mantiene el tamaño que se le da */
+	grid-template-columns: repeat(auto-fill,minmax(150px, 1fr)); 
+	grid-template-rows: repeat(3,200px);
+	grid-auto-rows: 150px;
+	grid-auto-flow: row;
+	grid-auto-columns: 100px;
+
+	margin: auto;
+	margin-top: 30px;
+	gap: 25px 5px;
+
+}
+.grid-item{
+	background-color: #48e;
+	padding: 10px;
+	font-size: 30px;
+	text-align: center;
+}

@@ -1,0 +1,63 @@
+/* forma de hacer que los hijos de un grid-item, forma parte del grid principal */
+
+/* no nos preocupamos por la direccion del main-axis */
+
+
+body, div{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-template-rows: repeat(3,1fr);
+	gap: 10px;
+	padding: 16px;
+	justify-items: stretch ;
+	justify-content: space-evenly;
+	align-items: stretch;
+	align-content: space-evenly;
+	border: 2px solid #000;
+}
+
+.subgrid-item{
+	background-color: #e66;
+	padding: 20px;
+	border-radius: 18px;
+	text-align: center;
+	width: 250px;
+}
+.subgrid-item:first-child{
+	/* afectamos la posicion de los subgrids */
+	order: 2;
+	background-color: #4a4;
+}
+.grid-item:first-child{
+	
+	grid-area: 3/2/span 2/ span 2;
+	display: grid;
+
+	/* con esto, se ajusta a la grilla principal */
+	grid-template-columns: subgrid;
+	grid-template-rows: subgrid;
+	gap: 10px;
+}
+
+
+.grid-item{
+	background-color: #48e;
+	color: #fff;
+	font-size: 30px;
+	max-width: 100%;
+	border-radius: 5px;
+
+	/* centrar elementos de adentro: */
+	display: flex;
+	justify-content: center;
+	
+}
+
+.grid-item:hover{
+	opacity: 0.74;
+}

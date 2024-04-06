@@ -1,0 +1,29 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+}
+
+
+
+.grid{
+	display: grid;
+
+
+	/* si le asignamos auto, primero estima que el contenido entre todo, y el espacio que sobra, lo divide , de tal manera que entre todo correctamente, aplica para columnas y filas */
+	grid-template-columns: auto 200px 300px; 
+	grid-template-rows: auto 200px 300px;		
+
+	/* con el fr, lo divide exactamente igual, sin importar el contenido, si pasa mas del contenido, lo va ajustando , fijamos un tamaño, a menos que un contenido crezca mas, este va creciendo y ajustando los demas*/
+
+	/* el fr, divide exactamente al tamaño de la pantalla, y referente al numero total que se da se divide, y el valor que se asigna es el que toma por cada grid-item, ejemplo: se divide en 7 partes, al primero se le da 4 espacios , al segundo 2 y al ultimo 1,  */
+	grid-template-columns: 4fr 2fr 1fr; 
+	grid-template-rows: auto 200px 300px;				
+}
+.grid-item{
+	background-color: #48e;
+	margin: 10px;
+	padding: 10px;
+	font-size: 30px;
+	color: #fff;
+	
+}

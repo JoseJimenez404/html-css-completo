@@ -1,0 +1,4 @@
+.grid{
+	/* no deja espacios en blanco, pero no respeta el orden que tenemos en el html, solo se preocupa por no dejar espacios en blanco */
+	grid-auto-flow: dense;
+}

@@ -1,0 +1,57 @@
+/* no nos preocupamos por la direccion del main-axis */
+
+
+body, div{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: repeat(3,250px);
+	grid-template-rows: repeat(3,250px);
+	gap: 10px;
+	padding: 16px;
+
+	/* eje horizontal */
+	/* pone la direccion de su contenedor a la derecha o a donde la indiques.es decir , movemos los elementos dentro de ella, dentro del contenedor grid
+	
+	start (al principio),center,end (al final), baseline (valor por defecto*/
+	justify-items: center ; /*valor por defecto*/
+
+	/* con esto movemos todo el contendor (celdas), no las etiquetas que la contienen, sino todo el contenedor como tal */
+	justify-content: start;
+	
+	/* con esto modificamos en el eje vertical a cada elemento dentro de su contenedor*/
+	align-items: center;
+	align-items: start;
+	align-content: space-around;/*modifica con respecto al eje vertical*/
+
+	
+}
+
+.grid:first-child{
+
+	/* estamos modificando a un unico hijo, dentro de su celda, le decimos que solo este elemento este en elcentro de su celda, las demas toman el valor que esta en .grid */
+
+	/* con justify-self: le decimos que ajuste solo asi misma; */
+	justify-self: center;
+}
+
+.grid-item{
+	background-color: #48e;
+	color: #fff;
+	font-size: 30px;
+	max-width: 100%;
+	border-radius: 5px;
+
+	/* centrar elementos de adentro: */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.grid-item:hover{
+	opacity: 0.74;
+}

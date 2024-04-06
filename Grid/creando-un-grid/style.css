@@ -1,0 +1,58 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+}
+
+
+
+/* con esta configuracion, hacemos que si o si, ponga los elementos en bloque, una debajo de otra, omite el inline block, y no los pone uno alado de otro, sino que los baja y los pone uno debajo de otro
+
+con esto, le estamos diciendo que todos los hijos del grid, es decir, los grid items, sean una fila, esto por defecto al usar grid
+.grid{
+	display: grid;
+}
+.grid-item{
+	background-color: #48e;
+	margin: 10px;
+	padding: 10px;
+	font-size: 30px;
+	color: #fff;
+	width: 40%;
+	display: inline-block;
+} */
+
+.grid{
+	display: grid;
+	/* le damos la medida de la columna, y asimismo si le damos otro valor, le decimos que agregue otra fila */
+
+	/* sin el grid-template-columns: le estamos diciendo que tome el 100% de ancho */
+
+	/* con grid-template-columns:nosotros definimos el ancho de cada grid item, e incluso las filas */
+
+	/* por cada valor que agreguemos se agrega una columna, con el tamaño que definimos */
+	/* grid-template-columns: 200px 200px 200px;  */
+
+	/* tambien se puede agregar por porcentaje, este porcentaje corresponde al tamaño de la pantalla, ejemplo, 50%, toma el 50% de la pantalla, asi cresca o disminuya, asi con cualquier valor que le asignemos: grid-template-columns: 50% 200px 200px;  */
+
+
+	/* define el width-ancho  */
+	grid-template-columns: 100px 200px 300px; 
+
+	/* asignandole filas que nosotros queramos, el tamaño, esta especifica el alto del item, podemos decirle la cantidad de filas */
+
+
+	/* define el height-alto */
+	grid-template-rows: 80px 200px 300px;
+
+	/* con esto cambiamos la orientacion inicial de derecha a izquierda */
+	/* direction: rtl; */
+						
+}
+.grid-item{
+	background-color: #48e;
+	margin: 10px;
+	padding: 10px;
+	font-size: 30px;
+	color: #fff;
+	
+}

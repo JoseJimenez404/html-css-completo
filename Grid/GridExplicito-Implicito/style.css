@@ -1,0 +1,29 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+}
+
+
+
+.grid{
+	display: grid;
+	grid-template-columns: 4fr 2fr 1fr; 
+	grid-template-rows: auto 200px 300px;				
+
+	/* grid implicito, sin definirlo, se crea automaticamente, ya que es el espacio que se le asigna por defecto
+	el explicito, es la que nosotros indicamos */
+	/* cada fila que se crea automaticamente tomara este tamaño, esto hace referencia al grid explicito e implicito */
+	grid-auto-columns: 50px;
+	grid-auto-rows: auto;
+
+	/* le indicamos que se ponga en columnas, cada elemento nuevo en columnas */
+	grid-auto-flow: column;
+}
+.grid-item{
+	background-color: #48e;
+	margin: 10px;
+	padding: 10px;
+	font-size: 30px;
+	color: #fff;
+	
+}

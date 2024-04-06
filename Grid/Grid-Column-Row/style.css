@@ -1,0 +1,22 @@
+
+
+
+.grid{
+
+	/* determina las posiciones
+	
+	le decimos que va a arrabcar en la primera fila, pero acaba en la tercera, nos permite tomar mas filas o columnas, esto nos permite tomar posiciones distintas.*/
+
+
+	/* con span 2; le decimos que ocupara 2 filas mas */
+	grid-column-start: span 2;
+
+
+	/* esta es la mejor manera de mover cada grid-item, dentro de todo el grid */
+	grid-column: 1/span 2 ;
+	grid-row: 4/span 2;
+
+	grid-row-start: 1;
+	grid-column-end: 4;
+	grid-row-end: 3;
+}

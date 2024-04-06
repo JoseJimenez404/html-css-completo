@@ -1,0 +1,18 @@
+sistema de diseño bidimensional, permite crear interfaces o layauts complejos
+diseños con una direccion : flexbox
+
+diseños con ambas direcciones: grid
+
+grid container: elemento padre
+puede tener elementos hijos directos llamados grid-item
+
+tenemos lineas cuadriculas que separan las filas y las columnas.
+
+con grid trabajamos como referencias las cuadriculas.
+
+grid item: elemento html
+
+grid cell: espacio real para almacenar al elemento item
+
+
+grid areas: son partes del grid, constan de una o mas celdas

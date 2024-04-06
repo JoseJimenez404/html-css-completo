@@ -1,0 +1,38 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.grid{
+	display: grid;
+
+	/* cuantas veces vas a repetir , simplifica la manera de agregar columnas y su tamaño , puedes ponerle fr, o px, lo que desees*/
+
+	/* de esto */
+	grid-template-columns: 4fr 2fr 1fr ; 
+
+
+	/* pasa a esto, decimos 5 columnas de 1fr,le podemos poner valores antes o despues del repear, indicandole que ademas de estos 3 repetidos, tendra otroas mas */
+	grid-template-columns: 200px repeat(5, 1fr) 300px; 
+
+	/* tambien podemos repetir patrones, ejemplo, quiero que me ponga un patron de 1fr y otro de 2fr, 6 veces, hacemos lo siguiente: , puede ser con pixeles, entre otros*/
+	grid-template-columns: repeat(6, 1fr 2fr);
+
+	/* con min-max , le decimos que toda la columna tendra un minimo de tamaño y un maximo de tamaño, hasta que tamaño va a crecer */
+	grid-template-columns: 200px minmax(300px,700px); 
+
+	/* esto tambien se puede usar con el repear, le decimos que 4 columnas van a tener un min de 100px y un maximo de 300px */
+	grid-template-columns: repeat(4 , min-max(100px,300px)) 1fr; 
+
+	/* lo mismo aplica para las filas */
+
+	grid-template-rows: 300px 300px;				
+}
+.grid-item{
+	background-color: #48e;
+	margin: 10px;
+	padding: 10px;
+	font-size: 30px;
+	color: #fff;
+	
+}

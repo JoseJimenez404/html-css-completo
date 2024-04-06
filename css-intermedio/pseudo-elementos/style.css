@@ -41,6 +41,6 @@ li::after{
 	color: green;
 }
 li::before{
-	content: "despues";
+	content: "antes";
 	color: green;
 }
