@@ -1,0 +1,6 @@
+siempre que se intente realizar algun proyecto, hay que tomar en cuenta que primero hay que tener un boceto, wireframes, de como este va  aser, siempre, es lo primordial en cualquier caso, en este en concreto, primero lo diseñaremos para movil, y se adaptara a web.
+
+
+se aplicara Movile-First
+
+crear paleta de colores
